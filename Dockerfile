@@ -7,3 +7,5 @@ RUN { \
       echo '[client]'; \
       echo 'default-character-set=utf8'; \
     } > /etc/mysql/conf.d/charset.cnf
+
+CMD ["mysqld"]
